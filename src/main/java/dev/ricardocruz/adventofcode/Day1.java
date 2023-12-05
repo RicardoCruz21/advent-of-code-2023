@@ -14,26 +14,6 @@ public class Day1 {
 
         List<String> linesOfText = PuzzleInputReader.readPuzzleInput("data\\day-01-test.txt");
         int sumOfCalibratedValues = partOne(linesOfText);
-
-        /*
-        Scanner userInput = new Scanner(System.in);
-        System.out.println("Enter path to puzzle input: ");
-        String filePath = userInput.nextLine();
-        userInput.close();
-
-        File puzzleFile = new File(filePath);
-
-        try (Scanner fileInput = new Scanner(puzzleFile)) {
-            while (fileInput.hasNextLine()) {
-                String lineOfText = fileInput.nextLine();
-                linesOfText.add(lineOfText);
-            }
-        } catch (FileNotFoundException e) {
-            System.out.println("The file was not found: " + puzzleFile.getAbsolutePath());
-        }
-        */
-
-
         System.out.println(sumOfCalibratedValues);
     }
 
